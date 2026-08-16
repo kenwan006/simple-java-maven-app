@@ -23,9 +23,5 @@ public class AppTest
         App app = new App();
         assertEquals("Hello World, This is Ken", app.getMessage());
     }
-    @Test
-    public void testAppMessage2() {
-        App app = new App();
-        assertNotNull(app.getMessage());
-    }
+
 }
